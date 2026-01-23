@@ -1,0 +1,23 @@
+{
+    "data_params": {
+      "num_samples": 1000,
+      "max_int": 128
+    },  
+    "model_params": {
+      "model": "MLP",
+      "input_dim": 24,
+      "hidden_dim": 512,
+      "output_dim": 1
+    },
+    "training_params": {
+      "learning_rate": 1e-3,
+      "batch_size": 128,
+      "window_length": 24,
+      "num_epochs": 100,
+      "optimizer": "Adam"
+    },
+    "log_params": {
+      "experiment_name": "experiment_001",
+      "notes": "Baseline experiment with MLP"
+    }
+  }
